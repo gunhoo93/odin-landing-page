@@ -13,3 +13,35 @@ header {
     text-decoration: none;
     padding: 8px 12px;
 }
+
+/* Section 1 */
+
+.section-1 {
+    background-color: #1f2937;
+    display: flex;
+}
+
+.section-1 * {
+    color: #f9faf8;
+}
+
+.hero-img {
+    background-image: url("https://robohash.org/hero.png?size=200x200");
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(0.98);
+}
+
+.btn.primary {
+    background-color: #3882f6;
+}
