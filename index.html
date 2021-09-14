@@ -1,50 +1,71 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Landing Page</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <header>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Landing Page</title>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="view-window">
+      <div class="navbar">
+        <span class="logo"><a href="">MyLogo</a></span>
+        <nav>
+          <a href="" class="nav-link">Item1</a>
+          <a href="" class="nav-link">Item2</a>
+          <a href="" class="nav-link">Item3</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
       <div class="view-window">
-        <div class="navbar">
-          <span class="logo"><a href="">MyLogo</a></span>
-          <nav>
-            <a href="" class="nav-link">Item1</a>
-            <a href="" class="nav-link">Item2</a>
-            <a href="" class="nav-link">Item3</a>
-          </nav>
+        <div class="hero-text">
+          <h1>Hero heading</h1>
+          <p>Some paragraph...</p>
+          <button class="btn cta">Sign up</button>
+        </div>
+        <div class="hero-img">
+          <img src="https://robohash.org/hero.png" alt="Hero robot">
         </div>
       </div>
-    </header>
-    <main>
-      <section class="hero">
-        <div class="view-window">
-          <div class="hero-text">
-            <h1>Hero heading</h1>
-            <p>Some paragraph...</p>
-            <button class="btn cta">Sign up</button>
+    </section>
+    <section class="primary-info">
+      <div class="view-window">
+        <h2>Primary Info</h2>
+        <div class="info-cards">
+          <div class="info-card">
+            <img src="https://robohash.org/info_1.png" alt="Info 1">
+            <p>Some paragraph</p>
           </div>
-          <div class="hero-img">
-            <img src="https://robohash.org/hero.png" alt="Hero robot">
+          <div class="info-card">
+            <img src="https://robohash.org/info_2.png" alt="Info 2">
+            <p>Some paragraph</p>
+          </div>
+          <div class="info-card">
+            <img src="https://robohash.org/info_3.png" alt="Info 3">
+            <p>Some paragraph</p>
+          </div>
+          <div class="info-card">
+            <img src="https://robohash.org/info_4.png" alt="Info 4">
+            <p>Some paragraph</p>
           </div>
         </div>
-      </section>
-      <div class="primary-info">
-        <section>[Primary Info]</section>
       </div>
-      <div class="testimonial">
-        <section>[Testimonial]</section>
-      </div>
-      <div class="call-to-action">
-        <section>[Call To Action]</section>
-      </div>
-    </main>
-    <footer>Copyright &copy; [Copyright]</footer>
-  </body>
+    </section>
+    <div class="testimonial">
+      <section>[Testimonial]</section>
+    </div>
+    <div class="call-to-action">
+      <section>[Call To Action]</section>
+    </div>
+  </main>
+  <footer>Copyright &copy; [Copyright]</footer>
+</body>
+
 </html>

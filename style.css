@@ -68,6 +68,26 @@ header, .hero, footer {
     margin: 0;
 }
 
+.primary-info .view-window {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.primary-info h2 {
+    color: #1f2937;
+    font-size: 2.3rem;
+    font-weight: bolder;
+}
+
+.info-cards {
+    display: flex;
+}
+
+.info-card {
+    text-align: center;
+}
+
 .testimonial {
     background-color: #e5e7eb;
 }
