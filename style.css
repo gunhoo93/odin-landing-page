@@ -5,6 +5,7 @@ html {
 .view-window {
     max-width: 80%;
     margin: 0 auto;
+    padding: 0.8rem 0;
 }
 
 .btn {
@@ -144,4 +145,8 @@ blockquote::after {
 
 .cta button {
     border: 1px solid #e5e7eb
+}
+
+footer {
+    text-align: center;
 }
