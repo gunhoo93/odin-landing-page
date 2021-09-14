@@ -1,6 +1,4 @@
-header {
-    background-color: #1f2937;
-}
+/* Generic */
 
 .navbar {
     display: flex;
@@ -12,6 +10,21 @@ header {
     color: #f9faf8;
     text-decoration: none;
     padding: 8px 12px;
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(0.98);
+}
+
+.btn.primary {
+    background-color: #3882f6;
 }
 
 /* Section 1 */
@@ -31,17 +44,21 @@ header {
     min-height: 200px;
 }
 
-.btn {
-    padding: 8px 16px;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
+header {
+    background-color: #1f2937;
 }
 
-.btn:hover {
-    transform: scale(0.98);
+.section-2 {
+    background-color: #f9faf8;
 }
 
-.btn.primary {
-    background-color: #3882f6;
+.primary-info {
+    text-align: center;
+}
+
+.primary-info-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
