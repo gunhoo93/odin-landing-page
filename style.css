@@ -1,5 +1,9 @@
 /* Generic */
 
+.html {
+    font-size: 16px;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -27,7 +31,7 @@
     background-color: #3882f6;
 }
 
-/* Section 1 */
+/* Sections */
 
 .section-1 {
     background-color: #1f2937;
@@ -38,19 +42,31 @@
     color: #f9faf8;
 }
 
+.section-2 {
+    background-color: #f9faf8;
+}
+
+.section-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    min-height: 25vh;
+}
+
+/* Hero */
+
+header {
+    background-color: #1f2937;
+}
+
 .hero-img {
     background-image: url("https://robohash.org/hero.png?size=200x200");
     min-width: 200px;
     min-height: 200px;
 }
 
-header {
-    background-color: #1f2937;
-}
-
-.section-2 {
-    background-color: #f9faf8;
-}
+/* Primary Info */
 
 .primary-info {
     text-align: center;
@@ -61,4 +77,47 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+/* Testimonial */
+
+.testimonial .quote-text {
+    color: #1f2937;
+    font-size: 1.5rem;
+}
+
+/* Components */
+
+.quote-wrapper {
+    margin: 0;
+    padding: 16px;
+}
+
+.quote-wrapper * {
+    margin: 0;
+}
+
+.quote-text {
+    text-align: center;
+    quotes: "“" "”";
+    text-indent: -10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-text:before {
+    content: "“";
+    margin-right: -5px;
+}
+
+.quote-text:after {
+    content: "”";
+    margin-left: -5px;
+}
+
+.quote-author {
+    text-align: right;
+    padding-right: 8px;
 }
