@@ -1,6 +1,43 @@
+html {
+    font-size: 16px
+}
+
+.view-window {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
 header, .highlight, footer {
     background-color: #1f2937;
     color: #f9faf8;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 1.5rem;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+}
+
+.nav-list li {
+    display: inline-block;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 1.25rem;
+    padding: 8px 16px;
 }
 
 .testimonial {
