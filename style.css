@@ -1,152 +1,15 @@
-html {
-    font-size: 16px
-}
-
-.view-window {
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 0.8rem 0;
-}
-
-.btn {
-    padding: 8px 24px;
-    border-radius: 10px;
-    border: inherit;
-    cursor: pointer;
-}
-
-.btn:hover {
-    transform: scale(0.99)
-}
-
-.btn.primary {
-    background-color: #3882f6;
-    color: #f9faf8;
-}
-
-header, .hero, footer {
+header {
     background-color: #1f2937;
-    color: #f9faf8;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-
-.logo a {
-    text-decoration: none;
-    color: #f9faf8;
-    font-size: 1.5rem;
-}
-
-.nav-list {
-    list-style: none;
-    margin: 0;
-}
-
-.nav-list li {
-    display: inline-block;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: #e5e7eb;
-    font-size: 1.25rem;
     padding: 8px 16px;
 }
 
-.hero .view-window {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 50px;
-}
-
-.hero h1 {
-    font-size: 3rem;
-    margin: 0;
-}
-
-.primary-info .view-window {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.primary-info h2 {
-    color: #1f2937;
-    font-size: 2.3rem;
-    font-weight: bolder;
-}
-
-.info-cards {
-    display: flex;
-}
-
-.info-card {
-    text-align: center;
-}
-
-.testimonial {
-    background-color: #e5e7eb;
-}
-
-.testimonial-quote {
-    margin: 0 auto;
-    max-width: 960px;
-    padding: 2.3rem;
-}
-
-blockquote {
-    quotes: "“" "”";
-}
-
-blockquote::before {
-    content: open-quote;
-}
-
-blockquote::after {
-    content: close-quote;
-}
-
-.testimonial-quote-text {
-    margin: 0;
-    color: #1f2937;
-    font-size: 2.3rem;
-    font-style: italic;
-    font-weight: lighter;
-}
-
-.testimonial-quote-author {
-    margin-right: 2rem;
-    text-align: right;
-    font-size: 1.3rem;
-    color: #1f2937;
-    font-weight: bolder;
-}
-
-.cta {
-    background-color: #3882f6;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 3rem auto;
-    padding: 1rem 0;
-    min-width: 300px;
-    max-width: 800px;
-    border-radius: 12px;
-}
-
-.cta-text-wrapper * {
-    color: #e5e7eb;
-}
-
-.cta button {
-    border: 1px solid #e5e7eb
-}
-
-footer {
-    text-align: center;
+.navbar a {
+    color: #f9faf8;
+    text-decoration: none;
+    padding: 8px 12px;
 }
