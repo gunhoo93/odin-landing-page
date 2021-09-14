@@ -7,7 +7,23 @@ html {
     margin: 0 auto;
 }
 
-header, .highlight, footer {
+.btn {
+    padding: 8px 24px;
+    border-radius: 10px;
+    border: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(0.99)
+}
+
+.btn.cta {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+header, .hero, footer {
     background-color: #1f2937;
     color: #f9faf8;
 }
@@ -38,6 +54,18 @@ header, .highlight, footer {
     color: #e5e7eb;
     font-size: 1.25rem;
     padding: 8px 16px;
+}
+
+.hero .view-window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
 }
 
 .testimonial {
