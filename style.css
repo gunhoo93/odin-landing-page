@@ -96,6 +96,11 @@ footer {
 
 /* Components */
 
+.logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
