@@ -1,17 +1,26 @@
 # Odin Landing Page
 Landing page project from [The Odin Project](https://www.theodinproject.com/).
 
-## Goal
-Create a landing page similar to the following design using HTML and CSS:
+[Visit Live Site](https://gunhoo93.github.io/odin-landing-page/index.html)
+
+## Task
+Create a landing page using HTML and CSS based on a mock design
+<details>
+    <summary>View mock design</summary>
+
 ### Mock Design
 ![mock design](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png)
-### Font & Color guides
-![spec](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/colors_and_stuff.png)
 
-## Outcome
-### On a regular FHD desktop
+### Color and fonts
+![spec](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/colors_and_stuff.png)
+</details>
+
+## Screen capture from multiple devices
+<details>
+    <summary>On full hd monitor</summary>
+
 ![landing page desktop](/demo/landing_page_desktop-1080.png)
-### Other devices
+</details>
 <details>
     <summary>On iPhone 6,7,8 plus</summary>
 
