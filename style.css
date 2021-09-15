@@ -1,11 +1,12 @@
 :root {
-    --bg-primary: #1f2937;
-    --bg-secondary: #f9faf8;
-    --bg-neutral: #e5e7eb;
-    --bg-cta: #3882f6;
-    --text-primary: #f9faf8;
-    --text-secondary: #1f2937;
-    --text-cta: #f9faf8;
+    --hue: 220;
+    --bg-primary: hsl(var(--hue), 30%, 18%);
+    --bg-secondary: hsl(var(--hue), 0%, 98%);
+    --bg-neutral: hsl(var(--hue), 15%, 90%);
+    --bg-cta: hsl(var(--hue), 90%, 60%);
+    --text-primary: hsl(var(--hue), 0%, 98%);
+    --text-secondary: hsl(var(--hue), 30%, 18%);
+    --text-cta: hsl(var(--hue), 0%, 98%);
 }
 
 /* Generic */
@@ -127,7 +128,7 @@ footer * {
 }
 
 .nav-link:hover {
-    background-color: #3c506b;
+    background-color: hsl(var(--hue), 30%, 50%);
 }
 
 .btn {
