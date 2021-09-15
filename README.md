@@ -37,7 +37,7 @@ Create a landing page using HTML and CSS based on a mock design
 ![landing page ultrawide](/demo/landing_page_desktop-ultrawide.png)
 </details>
 
-## Resources used
+## Acknowledgements
 - [devdocs.io](https://devdocs.io/) documentations
 - [robohash.org](https://robohash.org/) hashed Robot Image API
 - [Using CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) for CSS variable knowledge
