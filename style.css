@@ -214,6 +214,9 @@ footer {
     html {
         font-size: 18px;
     }
+    h1, h2, h3 {
+        line-height: 1;
+    }
     .hero {
         display: flex;
         justify-content: center;
@@ -222,7 +225,8 @@ footer {
         width: 95%;
     }
     .navbar {
-        justify-content: space-around;
+        flex-direction: row;
+        justify-content: space-between;
     }
     .hero-img {
         max-width: 300px;
