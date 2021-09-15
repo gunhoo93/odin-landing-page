@@ -1,7 +1,11 @@
 /* Generic */
 
-.html {
+html {
     font-size: 16px;
+}
+
+html * {
+    font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3 {
@@ -69,6 +73,10 @@ footer * {
     max-height: 200px;
 }
 
+.hero-btn-wrapper {
+    margin-top: 16px;
+}
+
 /* Primary Info */
 
 .primary-info-heading {
@@ -87,7 +95,7 @@ footer * {
 /* Components */
 
 .logo {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: bold;
 }
 
@@ -102,7 +110,15 @@ footer * {
 .navbar a {
     color: #f9faf8;
     text-decoration: none;
+}
+
+.nav-link {
+    transition: background-color 0.2s ease-in-out;
     padding: 8px 12px;
+}
+
+.nav-link:hover {
+    background-color: #3c506b;
 }
 
 .btn {
@@ -246,6 +262,9 @@ footer * {
 }
 
 @media only screen and (min-width: 1080px) {
+    .section-container {
+        min-height: 45vh;
+    }
     .hero {
         max-width: 1080px;
     }
