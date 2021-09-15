@@ -249,4 +249,22 @@ footer {
         max-width: 1080px;
         margin: 0 auto;
     }
+    .info-cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 36px;
+    }
+    .info-card {
+        flex-direction: column;
+    }
+    .info-card-text {
+        text-align: center;
+        max-width: 230px;
+    }
+    .info-card-text p {
+        text-align: left;
+    }
+    .testimonial .quote-wrapper {
+        max-width: 800px;
+    }
 }
